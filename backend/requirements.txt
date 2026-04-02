@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+motor
+certifi
+pydantic-settings
+PyJWT
+bcrypt
+numpy
+opencv-python
+pillow
+ultralytics
+python-multipart
+reportlab

@@ -8,10 +8,10 @@ import base64
 
 class TumorDetectionModel:
     """
-    AI Model for detecting tumors in X-ray and MRI images using YOLO
+    AI Model for detecting tumors in MRI images using YOLO
     """
     
-    def __init__(self, model_path: str = "best (1).pt"):
+    def __init__(self, model_path: str = "best.pt"):
         self.model_path = model_path
         self.model = None
         self.confidence_threshold = 0.25

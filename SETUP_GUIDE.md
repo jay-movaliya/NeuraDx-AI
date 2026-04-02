@@ -1,7 +1,7 @@
 # NeuraDx AI - Complete Setup Guide
 
 ## Project Overview
-Medical Imaging AI Platform for tumor detection in X-ray, MRI, and CT scans using YOLO model.
+Medical Imaging AI Platform for tumor detection in MRI, and CT scans using YOLO model.
 
 ---
 
@@ -80,9 +80,9 @@ Frontend will run on: **http://localhost:5173**
 - `POST /api/auth/register` - Register radiologist
   ```json
   {
-    "name": "Dr. John Smith",
-    "email": "doctor@hospital.com",
-    "password": "password123",
+    "name": "Dr. Jhon Deo",
+    "email": "jhondeo@gmail.com",
+    "password": "jhon123",
     "hospital": "City Hospital"
   }
   ```
@@ -90,8 +90,8 @@ Frontend will run on: **http://localhost:5173**
 - `POST /api/auth/login` - Login
   ```json
   {
-    "email": "doctor@hospital.com",
-    "password": "password123"
+    "email": "jhondeo@gmail.com",
+    "password": "jhon123"
   }
   ```
 
@@ -107,7 +107,7 @@ Frontend will run on: **http://localhost:5173**
     - `gender`: Male/Female/Other
     - `contact_no`: Contact number
     - `email`: Patient email
-    - `scan_type`: MRI/CT Scan/X-Ray
+    - `scan_type`: MRI/CT Scan
 
 - `GET /api/scans` - Get all scans (requires token)
 - `GET /api/scans/{scan_id}` - Get specific scan (requires token)
